@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Natureza Sublime</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Natureza Sublime</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Conecte-se com a beleza do mundo natural</h2>
+      <p>Explore paisagens inspiradoras, flora e fauna em sua forma mais pura.</p>
+      <a href="#galeria" class="btn">Ver Galeria</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="sobre" class="sobre">
+      <h2>Sobre a Natureza</h2>
+      <p>
+        A natureza é uma fonte inesgotável de vida, equilíbrio e inspiração. Cuidar dela é nosso dever para garantir um futuro sustentável para as próximas gerações.
+      </p>
+      <img src="imagens/floresta.jpg" alt="Floresta exuberante" class="imagem-sobre" />
+    </section>
+
+    <section id="galeria" class="galeria">
+      <h2>Galeria de Imagens</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="imagens/montanha.jpg" alt="Montanha majestosa" />
+          <div class="card-content">
+            <h3>Montanhas Majestosas</h3>
+            <p>Vistas deslumbrantes que elevam o espírito e renovam as energias.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="imagens/rio.jpg" alt="Rio cristalino" />
+          <div class="card-content">
+            <h3>Rio Cristalino</h3>
+            <p>Águas límpidas que refletem a pureza da natureza intocada.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="imagens/cachoeira.jpg" alt="Cachoeira poderosa" />
+          <div class="card-content">
+            <h3>Cachoeira Poderosa</h3>
+            <p>O som e a força das águas em uma dança eterna da natureza.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <p>
+        Quer saber mais ou colaborar conosco? Envie uma mensagem!
+      </p>
+      <form action="mailto:contato@naturezasublime.com" method="post" enctype="text/plain" class="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Natureza Sublime. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
